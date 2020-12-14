@@ -15,7 +15,7 @@ pipeline {
         stage ('Fim') {
             steps {
                 sleep(5)
-                bat 'echo fim'
+                bat 'echo fim teste'
             }
         }
     }
